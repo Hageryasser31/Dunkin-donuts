@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunkin' Donuts Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm py-3 px-4 ">
+    <div class="container-fluid">
+     
+  <!-- Logo -->
+      <a class="navbar-brand " href="#">
+        <img src="images/dd_nav_logo.svg" alt="Dunkin Logo" class="me-2" style="height: 48px;" loading="lazy">
+      </a>
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav align-items-center gap-3">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark fs-5 position-relative link-underline-hover"
+              href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark fs-5 position-relative link-underline-hover"
+              href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark fs-5 position-relative link-underline-hover"
+              href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark fs-5 position-relative link-underline-hover"
+              href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-lg rounded-pill text-white fw-semibold px-4 py-2" style="background-color: #f58220;"
+              href="#order">
+              Order Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero-section  d-flex justify-content-center align-items-center text-center"
+    style="min-height: 100vh;">
+    <div class="img">
+    </div>
+    <div class="container position-relative text-white text-center" style="z-index: 2; ">
+      <div>
+        <h1 class="display-3 fw-bold mb-3 mt-5">Start Your Day with Dunkin'</h1>
+        <p class="lead mb-4">Fresh coffee & tasty donuts every day</p>
+        <a href="menu.html" class="btn btn-orange btn-lg mt-5 rounded-pill p-3">Explore Menu</a>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 bg-light" id="offers">
+    <div class="container text-center">
+      <h2 class="mb-5 fw-bold text-uppercase">Best <span class="text-orange">Offers</span></h2>
+      <div class="mb-4">
+        <h5 class=" fw-bold">
+          ⏳ Offer Ends In: <span id="countdown">01:00:00</span>
+        </h5>
+      </div>
+      <div class="row g-4">
+        <!-- Offer Card 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 c-2">
+            <img src="images/CoffeeSandwich_Carousel.png" class="card-img-top" alt="Offer 1">
+          </div>
+        </div>
+
+        <!-- Offer Card 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 c-2">
+            <img src="images/dunkin-e1735733961115.webp" class="card-img-top" alt="Offer 2">
+          </div>
+        </div>
+
+        <!-- Offer Card 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 c-2">
+            <img src="images/OIP (4).webp" class="card-img-top" alt="Offer 3">
+          </div>
+        </div>
+
+        <!-- Offer Card 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 c-2">
+            <img src="images/33702.webp" class="card-img-top" alt="Offer 4">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <a href="#" target="_blank" class="btn btn-orange btn-lg mt-4 rounded-pill p-4 fw-bold">ORDER NOW<i
+          class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <footer class="text-white pt-5 pb-4" style="background-color:#653024;">
+    <div class="container text-md-start">
+      <div class="row">
+        <!-- Logo & Description -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <img src="images/dd_nav_logo.svg" alt="Dunkin Logo" class="mb-3"
+            style="height: 45px; filter: brightness(0) invert(1);" />
+          <p class="text-white-50">
+            America runs on Dunkin'. Serving fresh coffee and delicious donuts since 1950.
+          </p>
+          <!-- Social Icons -->
+          <div class="d-flex gap-2 mt-3">
+            <a href="https://facebook.com/DunkinEG/" class="btn btn-outline-light btn-sm rounded-circle">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com/dunkin" class="btn btn-outline-light btn-sm rounded-circle">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/dunkindonuts" class="btn btn-outline-light btn-sm rounded-circle">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://youtube.com/user/dunkindonuts" class="btn btn-outline-light btn-sm rounded-circle">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#menu" class="text-white-50 text-decoration-none">Menu</a></li>
+            <li><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="#contact" class="text-white-50 text-decoration-none">Locations</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Contact</h6>
+          <p><i class="fas fa-phone me-2 text-warning"></i> <a href="tel:19655"
+              class="text-white-50 text-decoration-none">19655</a></p>
+          <p><i class="fas fa-envelope me-2 text-warning"></i> <a href="mailto:info@dunkinegypt.com"
+              class="text-white-50 text-decoration-none">info@dunkinegypt.com</a></p>
+          <p><i class="fas fa-clock me-2 text-warning"></i> Mon–Thu: 6AM–10PM <br> Fri–Sun: 6AM–11PM</p>
+        </div>
+
+        <!-- App Download -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-3">Download Our App</h6>
+          <p class="text-white-50">Order ahead and earn rewards!</p>
+          <div class="d-flex flex-column gap-2">
+            <a href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="App Store" class="img-fluid" style="height: 40px;"></a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Google Play" class="img-fluid" style="height: 40px;"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center pt-4 mt-4 border-top border-light">
+        <p class="text-white-50 mb-0">
+          © 2024 Dunkin' Egypt. All rights reserved.
+          <a href="#" class="text-white text-decoration-none ms-2">Privacy Policy</a> |
+          <a href="#" class="text-white text-decoration-none ms-1">Terms</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
