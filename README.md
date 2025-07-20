@@ -1,4 +1,4 @@
-# Dunkin' Donuts Egypt Website 🍩☕
+# Dunkin' Donuts Website 🍩☕
 
 **🔴 Live Demo:** [Click here to view the website](https://hageryasser31.github.io/Dunkin-donuts/)
 
